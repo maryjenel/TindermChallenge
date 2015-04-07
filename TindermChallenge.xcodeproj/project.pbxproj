@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F0CB36F484E89B462466327 /* libPods-TindermChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 266770CE90DA4C7241C0441B /* libPods-TindermChallenge.a */; };
 		62AE5A1C1AD3546F00B491E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AE5A1B1AD3546F00B491E1 /* main.m */; };
 		62AE5A1F1AD3546F00B491E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AE5A1E1AD3546F00B491E1 /* AppDelegate.m */; };
 		62AE5A221AD3546F00B491E1 /* TindermChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62AE5A201AD3546F00B491E1 /* TindermChallenge.xcdatamodeld */; };
-		62AE5A251AD3546F00B491E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AE5A241AD3546F00B491E1 /* ViewController.m */; };
+		62AE5A251AD3546F00B491E1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AE5A241AD3546F00B491E1 /* HomeViewController.m */; };
 		62AE5A281AD3546F00B491E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62AE5A261AD3546F00B491E1 /* Main.storyboard */; };
 		62AE5A2A1AD3546F00B491E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62AE5A291AD3546F00B491E1 /* Images.xcassets */; };
 		62AE5A2D1AD3546F00B491E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62AE5A2B1AD3546F00B491E1 /* LaunchScreen.xib */; };
 		62AE5A391AD3547000B491E1 /* TindermChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AE5A381AD3547000B491E1 /* TindermChallengeTests.m */; };
+		62AE5A441AD357A300B491E1 /* DraggableViewBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AE5A431AD357A300B491E1 /* DraggableViewBackground.m */; };
+		62AE5A4A1AD357DE00B491E1 /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AE5A491AD357DE00B491E1 /* OverlayView.m */; };
+		62AE5A4D1AD3879400B491E1 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AE5A4C1AD3879400B491E1 /* ChatViewController.m */; };
+		62AE5A521AD38B2D00B491E1 /* CaseHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AE5A511AD38B2D00B491E1 /* CaseHistoryViewController.m */; };
+		62AE5A551AD38BC500B491E1 /* FavoriteAnswersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AE5A541AD38BC500B491E1 /* FavoriteAnswersViewController.m */; };
+		62AE5A581AD390E300B491E1 /* PaymentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AE5A571AD390E300B491E1 /* PaymentsViewController.m */; };
+		62AE5A5B1AD390F900B491E1 /* StatisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AE5A5A1AD390F900B491E1 /* StatisticsViewController.m */; };
+		62AE5A5E1AD392BD00B491E1 /* DraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AE5A5D1AD392BD00B491E1 /* DraggableView.m */; };
+		62AE5A611AD3964D00B491E1 /* PatientData.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AE5A601AD3964D00B491E1 /* PatientData.m */; };
+		62AE5A631AD3A77D00B491E1 /* DraggableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62AE5A621AD3A77D00B491E1 /* DraggableView.xib */; };
+		62AE5A661AD3BB3100B491E1 /* CaseDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AE5A651AD3BB3100B491E1 /* CaseDetailsViewController.m */; };
+		62AE5A6A1AD3BD1A00B491E1 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AE5A691AD3BD1A00B491E1 /* SWRevealViewController.m */; };
+		62AE5A6D1AD3C2BF00B491E1 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AE5A6C1AD3C2BF00B491E1 /* MenuTableViewController.m */; };
+		62E88AA91AD3E16400AC7FB7 /* CaseHistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E88AA81AD3E16400AC7FB7 /* CaseHistoryTableViewCell.m */; };
+		62E88AAC1AD3E59D00AC7FB7 /* Disease.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E88AAB1AD3E59D00AC7FB7 /* Disease.m */; };
+		62E88AAF1AD3FC0C00AC7FB7 /* ChatCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E88AAE1AD3FC0C00AC7FB7 /* ChatCollectionViewCell.m */; };
+		62E88AB21AD3FEA100AC7FB7 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E88AB11AD3FEA100AC7FB7 /* Doctor.m */; };
+		62E88AB51AD4077D00AC7FB7 /* AnimationLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E88AB41AD4077D00AC7FB7 /* AnimationLabel.m */; };
+		62E88ABB1AD442D800AC7FB7 /* TemplatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E88ABA1AD442D800AC7FB7 /* TemplatesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +48,60 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16DCDDCEBB98ACDCBA77F67B /* Pods-TindermChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TindermChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-TindermChallenge/Pods-TindermChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		266770CE90DA4C7241C0441B /* libPods-TindermChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TindermChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62AE5A161AD3546F00B491E1 /* TindermChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TindermChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62AE5A1A1AD3546F00B491E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62AE5A1B1AD3546F00B491E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		62AE5A1D1AD3546F00B491E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		62AE5A1E1AD3546F00B491E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		62AE5A211AD3546F00B491E1 /* TindermChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TindermChallenge.xcdatamodel; sourceTree = "<group>"; };
-		62AE5A231AD3546F00B491E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		62AE5A241AD3546F00B491E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62AE5A231AD3546F00B491E1 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		62AE5A241AD3546F00B491E1 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		62AE5A271AD3546F00B491E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62AE5A291AD3546F00B491E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		62AE5A2C1AD3546F00B491E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		62AE5A321AD3547000B491E1 /* TindermChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TindermChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62AE5A371AD3547000B491E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62AE5A381AD3547000B491E1 /* TindermChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TindermChallengeTests.m; sourceTree = "<group>"; };
+		62AE5A421AD357A300B491E1 /* DraggableViewBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableViewBackground.h; sourceTree = "<group>"; };
+		62AE5A431AD357A300B491E1 /* DraggableViewBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableViewBackground.m; sourceTree = "<group>"; };
+		62AE5A481AD357DE00B491E1 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		62AE5A491AD357DE00B491E1 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		62AE5A4B1AD3879400B491E1 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		62AE5A4C1AD3879400B491E1 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		62AE5A501AD38B2D00B491E1 /* CaseHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseHistoryViewController.h; sourceTree = "<group>"; };
+		62AE5A511AD38B2D00B491E1 /* CaseHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseHistoryViewController.m; sourceTree = "<group>"; };
+		62AE5A531AD38BC500B491E1 /* FavoriteAnswersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteAnswersViewController.h; sourceTree = "<group>"; };
+		62AE5A541AD38BC500B491E1 /* FavoriteAnswersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteAnswersViewController.m; sourceTree = "<group>"; };
+		62AE5A561AD390E300B491E1 /* PaymentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentsViewController.h; sourceTree = "<group>"; };
+		62AE5A571AD390E300B491E1 /* PaymentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentsViewController.m; sourceTree = "<group>"; };
+		62AE5A591AD390F900B491E1 /* StatisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsViewController.h; sourceTree = "<group>"; };
+		62AE5A5A1AD390F900B491E1 /* StatisticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsViewController.m; sourceTree = "<group>"; };
+		62AE5A5C1AD392BD00B491E1 /* DraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DraggableView.h; path = ../DraggableView.h; sourceTree = "<group>"; };
+		62AE5A5D1AD392BD00B491E1 /* DraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DraggableView.m; path = ../DraggableView.m; sourceTree = "<group>"; };
+		62AE5A5F1AD3964D00B491E1 /* PatientData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientData.h; sourceTree = "<group>"; };
+		62AE5A601AD3964D00B491E1 /* PatientData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientData.m; sourceTree = "<group>"; };
+		62AE5A621AD3A77D00B491E1 /* DraggableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DraggableView.xib; sourceTree = "<group>"; };
+		62AE5A641AD3BB3100B491E1 /* CaseDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseDetailsViewController.h; sourceTree = "<group>"; };
+		62AE5A651AD3BB3100B491E1 /* CaseDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseDetailsViewController.m; sourceTree = "<group>"; };
+		62AE5A681AD3BD1A00B491E1 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		62AE5A691AD3BD1A00B491E1 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		62AE5A6B1AD3C2BF00B491E1 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		62AE5A6C1AD3C2BF00B491E1 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
+		62E88AA71AD3E16400AC7FB7 /* CaseHistoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseHistoryTableViewCell.h; sourceTree = "<group>"; };
+		62E88AA81AD3E16400AC7FB7 /* CaseHistoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseHistoryTableViewCell.m; sourceTree = "<group>"; };
+		62E88AAA1AD3E59D00AC7FB7 /* Disease.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Disease.h; sourceTree = "<group>"; };
+		62E88AAB1AD3E59D00AC7FB7 /* Disease.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Disease.m; sourceTree = "<group>"; };
+		62E88AAD1AD3FC0C00AC7FB7 /* ChatCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatCollectionViewCell.h; sourceTree = "<group>"; };
+		62E88AAE1AD3FC0C00AC7FB7 /* ChatCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatCollectionViewCell.m; sourceTree = "<group>"; };
+		62E88AB01AD3FEA100AC7FB7 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		62E88AB11AD3FEA100AC7FB7 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		62E88AB31AD4077D00AC7FB7 /* AnimationLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationLabel.h; sourceTree = "<group>"; };
+		62E88AB41AD4077D00AC7FB7 /* AnimationLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationLabel.m; sourceTree = "<group>"; };
+		62E88AB91AD442D800AC7FB7 /* TemplatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplatesViewController.h; sourceTree = "<group>"; };
+		62E88ABA1AD442D800AC7FB7 /* TemplatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplatesViewController.m; sourceTree = "<group>"; };
+		E22833C2CBAA7D65AB031C54 /* Pods-TindermChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TindermChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TindermChallenge/Pods-TindermChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F0CB36F484E89B462466327 /* libPods-TindermChallenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +123,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		059A239F1B769485AE795847 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				266770CE90DA4C7241C0441B /* libPods-TindermChallenge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		62AE5A0D1AD3546F00B491E1 = {
 			isa = PBXGroup;
 			children = (
 				62AE5A181AD3546F00B491E1 /* TindermChallenge */,
 				62AE5A351AD3547000B491E1 /* TindermChallengeTests */,
 				62AE5A171AD3546F00B491E1 /* Products */,
+				EFBEAC5F8779B23BB2BF2EA2 /* Pods */,
+				059A239F1B769485AE795847 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,8 +156,8 @@
 			children = (
 				62AE5A1D1AD3546F00B491E1 /* AppDelegate.h */,
 				62AE5A1E1AD3546F00B491E1 /* AppDelegate.m */,
-				62AE5A231AD3546F00B491E1 /* ViewController.h */,
-				62AE5A241AD3546F00B491E1 /* ViewController.m */,
+				62AE5A4E1AD3897000B491E1 /* View Controllers */,
+				62AE5A4F1AD3897600B491E1 /* Models */,
 				62AE5A261AD3546F00B491E1 /* Main.storyboard */,
 				62AE5A291AD3546F00B491E1 /* Images.xcassets */,
 				62AE5A2B1AD3546F00B491E1 /* LaunchScreen.xib */,
@@ -99,6 +170,7 @@
 		62AE5A191AD3546F00B491E1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				62AE5A671AD3BD1A00B491E1 /* SlideOutMenuFiles */,
 				62AE5A1A1AD3546F00B491E1 /* Info.plist */,
 				62AE5A1B1AD3546F00B491E1 /* main.m */,
 			);
@@ -122,6 +194,83 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		62AE5A4E1AD3897000B491E1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				62AE5A6E1AD3C8FF00B491E1 /* Menu */,
+				62AE5A231AD3546F00B491E1 /* HomeViewController.h */,
+				62AE5A241AD3546F00B491E1 /* HomeViewController.m */,
+				62AE5A4B1AD3879400B491E1 /* ChatViewController.h */,
+				62AE5A4C1AD3879400B491E1 /* ChatViewController.m */,
+				62AE5A501AD38B2D00B491E1 /* CaseHistoryViewController.h */,
+				62AE5A511AD38B2D00B491E1 /* CaseHistoryViewController.m */,
+				62AE5A531AD38BC500B491E1 /* FavoriteAnswersViewController.h */,
+				62AE5A541AD38BC500B491E1 /* FavoriteAnswersViewController.m */,
+				62AE5A561AD390E300B491E1 /* PaymentsViewController.h */,
+				62AE5A571AD390E300B491E1 /* PaymentsViewController.m */,
+				62AE5A591AD390F900B491E1 /* StatisticsViewController.h */,
+				62AE5A5A1AD390F900B491E1 /* StatisticsViewController.m */,
+				62E88AB91AD442D800AC7FB7 /* TemplatesViewController.h */,
+				62E88ABA1AD442D800AC7FB7 /* TemplatesViewController.m */,
+				62AE5A641AD3BB3100B491E1 /* CaseDetailsViewController.h */,
+				62AE5A651AD3BB3100B491E1 /* CaseDetailsViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		62AE5A4F1AD3897600B491E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				62AE5A5C1AD392BD00B491E1 /* DraggableView.h */,
+				62AE5A5D1AD392BD00B491E1 /* DraggableView.m */,
+				62AE5A621AD3A77D00B491E1 /* DraggableView.xib */,
+				62AE5A421AD357A300B491E1 /* DraggableViewBackground.h */,
+				62AE5A431AD357A300B491E1 /* DraggableViewBackground.m */,
+				62AE5A481AD357DE00B491E1 /* OverlayView.h */,
+				62AE5A491AD357DE00B491E1 /* OverlayView.m */,
+				62E88AAA1AD3E59D00AC7FB7 /* Disease.h */,
+				62E88AAB1AD3E59D00AC7FB7 /* Disease.m */,
+				62E88AAD1AD3FC0C00AC7FB7 /* ChatCollectionViewCell.h */,
+				62E88AAE1AD3FC0C00AC7FB7 /* ChatCollectionViewCell.m */,
+				62AE5A5F1AD3964D00B491E1 /* PatientData.h */,
+				62AE5A601AD3964D00B491E1 /* PatientData.m */,
+				62E88AB01AD3FEA100AC7FB7 /* Doctor.h */,
+				62E88AB11AD3FEA100AC7FB7 /* Doctor.m */,
+				62E88AA71AD3E16400AC7FB7 /* CaseHistoryTableViewCell.h */,
+				62E88AA81AD3E16400AC7FB7 /* CaseHistoryTableViewCell.m */,
+				62E88AB31AD4077D00AC7FB7 /* AnimationLabel.h */,
+				62E88AB41AD4077D00AC7FB7 /* AnimationLabel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		62AE5A671AD3BD1A00B491E1 /* SlideOutMenuFiles */ = {
+			isa = PBXGroup;
+			children = (
+				62AE5A681AD3BD1A00B491E1 /* SWRevealViewController.h */,
+				62AE5A691AD3BD1A00B491E1 /* SWRevealViewController.m */,
+			);
+			path = SlideOutMenuFiles;
+			sourceTree = "<group>";
+		};
+		62AE5A6E1AD3C8FF00B491E1 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				62AE5A6B1AD3C2BF00B491E1 /* MenuTableViewController.h */,
+				62AE5A6C1AD3C2BF00B491E1 /* MenuTableViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		EFBEAC5F8779B23BB2BF2EA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E22833C2CBAA7D65AB031C54 /* Pods-TindermChallenge.debug.xcconfig */,
+				16DCDDCEBB98ACDCBA77F67B /* Pods-TindermChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62AE5A3C1AD3547000B491E1 /* Build configuration list for PBXNativeTarget "TindermChallenge" */;
 			buildPhases = (
+				AC32CA8F55F904BFA3588140 /* Check Pods Manifest.lock */,
 				62AE5A121AD3546F00B491E1 /* Sources */,
 				62AE5A131AD3546F00B491E1 /* Frameworks */,
 				62AE5A141AD3546F00B491E1 /* Resources */,
+				E24D1E0C071497BAFA894A77 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,6 +355,7 @@
 			files = (
 				62AE5A281AD3546F00B491E1 /* Main.storyboard in Resources */,
 				62AE5A2D1AD3546F00B491E1 /* LaunchScreen.xib in Resources */,
+				62AE5A631AD3A77D00B491E1 /* DraggableView.xib in Resources */,
 				62AE5A2A1AD3546F00B491E1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,15 +369,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AC32CA8F55F904BFA3588140 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E24D1E0C071497BAFA894A77 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TindermChallenge/Pods-TindermChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		62AE5A121AD3546F00B491E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62AE5A6D1AD3C2BF00B491E1 /* MenuTableViewController.m in Sources */,
+				62E88AA91AD3E16400AC7FB7 /* CaseHistoryTableViewCell.m in Sources */,
 				62AE5A221AD3546F00B491E1 /* TindermChallenge.xcdatamodeld in Sources */,
+				62AE5A521AD38B2D00B491E1 /* CaseHistoryViewController.m in Sources */,
+				62AE5A6A1AD3BD1A00B491E1 /* SWRevealViewController.m in Sources */,
+				62AE5A5B1AD390F900B491E1 /* StatisticsViewController.m in Sources */,
+				62AE5A581AD390E300B491E1 /* PaymentsViewController.m in Sources */,
+				62AE5A4A1AD357DE00B491E1 /* OverlayView.m in Sources */,
+				62E88ABB1AD442D800AC7FB7 /* TemplatesViewController.m in Sources */,
+				62AE5A551AD38BC500B491E1 /* FavoriteAnswersViewController.m in Sources */,
+				62AE5A5E1AD392BD00B491E1 /* DraggableView.m in Sources */,
+				62E88AB51AD4077D00AC7FB7 /* AnimationLabel.m in Sources */,
 				62AE5A1F1AD3546F00B491E1 /* AppDelegate.m in Sources */,
-				62AE5A251AD3546F00B491E1 /* ViewController.m in Sources */,
+				62AE5A251AD3546F00B491E1 /* HomeViewController.m in Sources */,
+				62E88AAF1AD3FC0C00AC7FB7 /* ChatCollectionViewCell.m in Sources */,
+				62AE5A611AD3964D00B491E1 /* PatientData.m in Sources */,
+				62E88AB21AD3FEA100AC7FB7 /* Doctor.m in Sources */,
 				62AE5A1C1AD3546F00B491E1 /* main.m in Sources */,
+				62E88AAC1AD3E59D00AC7FB7 /* Disease.m in Sources */,
+				62AE5A661AD3BB3100B491E1 /* CaseDetailsViewController.m in Sources */,
+				62AE5A4D1AD3879400B491E1 /* ChatViewController.m in Sources */,
+				62AE5A441AD357A300B491E1 /* DraggableViewBackground.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +548,7 @@
 		};
 		62AE5A3D1AD3547000B491E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22833C2CBAA7D65AB031C54 /* Pods-TindermChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TindermChallenge/Info.plist;
@@ -355,6 +559,7 @@
 		};
 		62AE5A3E1AD3547000B491E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16DCDDCEBB98ACDCBA77F67B /* Pods-TindermChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TindermChallenge/Info.plist;
@@ -416,6 +621,7 @@
 				62AE5A3E1AD3547000B491E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62AE5A3F1AD3547000B491E1 /* Build configuration list for PBXNativeTarget "TindermChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +630,7 @@
 				62AE5A411AD3547000B491E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
