@@ -57,6 +57,8 @@
 {
     return self.caseHistoryArray.count;
 }
+
+
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     CaseHistoryTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];

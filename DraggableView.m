@@ -133,7 +133,7 @@
     overlayView.alpha = MIN(fabsf(distance)/100, 0.4);
 }
 
-//%%% called when the card is let go
+// called when the card is let go
 - (void)afterSwipeAction
 {
     if (xFromCenter > ACTION_MARGIN) {

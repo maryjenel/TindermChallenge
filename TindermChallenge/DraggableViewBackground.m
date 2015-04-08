@@ -10,18 +10,18 @@
 #import "CaseDetailsViewController.h"
 
 @implementation DraggableViewBackground{
-    NSInteger cardsLoadedIndex; //%%% the index of the card you have loaded into the loadedCards array last
-    NSMutableArray *loadedCards; //%%% the array of card loaded (change max_buffer_size to increase or decrease the number of cards this holds)
+    NSInteger cardsLoadedIndex; // the index of the card you have loaded into the loadedCards array last
+    NSMutableArray *loadedCards; // the array of card loaded (change max_buffer_size to increase or decrease the number of cards this holds)
 
 }
 //this makes it so only two cards are loaded at a time to
 //avoid performance and memory costs
-static const int MAX_BUFFER_SIZE = 2; //%%% max number of cards loaded at any given time, must be greater than 1
-static const float CARD_HEIGHT = 386; //%%% height of the draggable card
-static const float CARD_WIDTH = 290; //%%% width of the draggable card
+static const int MAX_BUFFER_SIZE = 2; // max number of cards loaded at any given time, must be greater than 1
+static const float CARD_HEIGHT = 386; // height of the draggable card
+static const float CARD_WIDTH = 290; //width of the draggable card
 
-@synthesize exampleCardLabels; //%%% all the labels I'm using as example data at the moment
-@synthesize allCards;//%%% all the cards
+@synthesize exampleCardLabels; //all the labels I'm using as example data at the moment
+@synthesize allCards;// all the cards
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -44,7 +44,7 @@ static const float CARD_WIDTH = 290; //%%% width of the draggable card
 }
 
 
-//%%% creates a card and returns it.  This should be customized to fit your needs.
+//creates a card and returns it.  This should be customized to fit your needs.
 // use "index" to indicate where the information should be pulled.  If this doesn't apply to you, feel free
 // to get rid of it (eg: if you are building cards from data from the internet)
 -(DraggableView *)createDraggableViewWithDataAtIndex:(NSInteger)index
@@ -59,25 +59,25 @@ static const float CARD_WIDTH = 290; //%%% width of the draggable card
     return draggableView;
 }
 
-//%%% loads all the cards and puts the first x in the "loaded cards" array
+// loads all the cards and puts the first x in the "loaded cards" array
 -(void)loadCards
 {
     if([exampleCardLabels count] > 0) {
         NSInteger numLoadedCardsCap =(([exampleCardLabels count] > MAX_BUFFER_SIZE)?MAX_BUFFER_SIZE:[exampleCardLabels count]);
         // if the buffer size is greater than the data size, there will be an array error, so this makes sure that doesn't happen
 
-        //%%% loops through the exampleCardsLabels array to create a card for each label.  This should be customized by removing "exampleCardLabels" with your own array of data
+        //loops through the exampleCardsLabels array to create a card for each label.  This should be customized by removing "exampleCardLabels" with your own array of data
         for (int i = 0; i<[exampleCardLabels count]; i++) {
             DraggableView* newCard = [self createDraggableViewWithDataAtIndex:i];
             [allCards addObject:newCard];
 
             if (i<numLoadedCardsCap) {
-                //%%% adds a small number of cards to be loaded
+                // adds a small number of cards to be loaded
                 [loadedCards addObject:newCard];
             }
         }
 
-        //%%% displays the small number of loaded cards dictated by MAX_BUFFER_SIZE so that not all the cards
+        //displays the small number of loaded cards dictated by MAX_BUFFER_SIZE so that not all the cards
         // are showing at once and clogging a ton of data
         for (int i = 0; i<[loadedCards count]; i++) {
             if (i>0) {
@@ -85,12 +85,11 @@ static const float CARD_WIDTH = 290; //%%% width of the draggable card
             } else {
                 [self addSubview:[loadedCards objectAtIndex:i]];
             }
-            cardsLoadedIndex++; //%%% we loaded a card into loaded cards, so we have to increment
+            cardsLoadedIndex++; // we loaded a card into loaded cards, so we have to increment
         }
     }
 }
 
-#warning include own action here!
 //%%% action called when the card goes to the left.
 // This should be customized with your own action
 
@@ -110,25 +109,23 @@ static const float CARD_WIDTH = 290; //%%% width of the draggable card
     }
 }
 
-#warning include own action here!
-//%%% action called when the card goes to the right.
-// This should be customized with your own action
+//action called when the card goes to the right.
 -(void)cardSwipedRight:(UIView *)card
 {
     //do whatever you want with the card that was swiped
     //    DraggableView *c = (DraggableView *)card;
 
-    [loadedCards removeObjectAtIndex:0]; //%%% card was swiped, so it's no longer a "loaded card"
+    [loadedCards removeObjectAtIndex:0]; //card was swiped, so it's no longer a "loaded card"
 
-    if (cardsLoadedIndex < [allCards count]) { //%%% if we haven't reached the end of all cards, put another into the loaded cards
+    if (cardsLoadedIndex < [allCards count]) { //if we haven't reached the end of all cards, put another into the loaded cards
         [loadedCards addObject:[allCards objectAtIndex:cardsLoadedIndex]];
-        cardsLoadedIndex++;//%%% loaded a card, so have to increment count
+        cardsLoadedIndex++;//loaded a card, so have to increment count
         [self insertSubview:[loadedCards objectAtIndex:(MAX_BUFFER_SIZE-1)] belowSubview:[loadedCards objectAtIndex:(MAX_BUFFER_SIZE-2)]];
     }
 
 }
 
-//%%% when you hit the right button, this is called and substitutes the swipe
+// when you hit the right button, this is called and substitutes the swipe
 -(void)swipeRight
 {
     DraggableView *dragView = [loadedCards firstObject];
@@ -141,7 +138,7 @@ static const float CARD_WIDTH = 290; //%%% width of the draggable card
 
 }
 
-//%%% when you hit the left button, this is called and substitutes the swipe
+//when you hit the left button, this is called and substitutes the swipe
 -(void)swipeLeft
 {
     DraggableView *dragView = [loadedCards firstObject];
@@ -152,13 +149,6 @@ static const float CARD_WIDTH = 290; //%%% width of the draggable card
     [dragView leftClickAction];
 }
 
-/*
- // Only override drawRect: if you perform custom drawing.
- // An empty implementation adversely affects performance during animation.
- - (void)drawRect:(CGRect)rect
- {
- // Drawing code
- }
- */
+
 
 @end
